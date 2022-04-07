@@ -1,1 +1,67 @@
-[]
+[
+    {
+        "id": "425a9679ab91421b",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "b6678bd3d5f4795a",
+        "type": "inject",
+        "z": "425a9679ab91421b",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 200,
+        "y": 200,
+        "wires": [
+            [
+                "a798ef3930aa12c7",
+                "cc6a340d6c7bc3bc"
+            ]
+        ]
+    },
+    {
+        "id": "a798ef3930aa12c7",
+        "type": "debug",
+        "z": "425a9679ab91421b",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 410,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "cc6a340d6c7bc3bc",
+        "type": "link out",
+        "z": "425a9679ab91421b",
+        "name": "l1",
+        "mode": "link",
+        "links": [],
+        "x": 425,
+        "y": 360,
+        "wires": []
+    }
+]
